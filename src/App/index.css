@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+    line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+    height: 100%;
+  direction: rtl;
+  font-family: "IRANSans", sans-serif;
+
+  background-image: url("/images/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+@font-face {
+  font-family: IRANSans;
+  src: url("../assets/fonts/IRANSans/eot/IRANSansWeb.eot");
+  src: url("../assets/fonts/IRANSans/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/IRANSans/woff/IRANSansWeb.woff") format("woff"),
+    url("../assets/fonts/IRANSans/ttf/IRANSansWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
